@@ -545,7 +545,7 @@ var app = (function () {
     			div7 = element("div");
     			div6 = element("div");
     			h51 = element("h5");
-    			h51.textContent = "nitrógeno ureico en sangre (mg/dL)";
+    			h51.textContent = "Nitrógeno ureico en sangre (mg/dL)";
     			t15 = space();
     			div5 = element("div");
     			input4 = element("input");
@@ -565,7 +565,7 @@ var app = (function () {
     			h52 = element("h5");
     			t22 = text("Comorbilidades ");
     			span = element("span");
-    			span.textContent = "(hipertensión, diabetes mellitus, obesidad, enfermedad coronaria, insuficiencia cardíaca, fibrilación o aleteo auricular, cirrosis, cáncer y accidente cerebrovascular previo)";
+    			span.textContent = "(hipertensión, diabetes mellitus, obesidad, enfermedad coronaria, insuficiencia cardiaca, fibrilación o aleteo auricular, cirrosis, cáncer y accidente cerebrovascular previo)";
     			t24 = space();
     			div10 = element("div");
     			input6 = element("input");
@@ -694,7 +694,7 @@ var app = (function () {
     			div42 = element("div");
     			div41 = element("div");
     			h59 = element("h5");
-    			h59.textContent = "Mortalidade intrahospitalaria (%)";
+    			h59.textContent = "Mortalidad intrahospitalaria (%)";
     			t86 = space();
     			h32 = element("h3");
     			t87 = text(/*probability*/ ctx[2]);
@@ -1241,13 +1241,13 @@ var app = (function () {
 
     function calculateRiskGroup(params) {
     	if (params <= 1) {
-    		return "Baja riesgo";
+    		return "Bajo riesgo";
     	} else if (params >= 2 && params <= 4) {
-    		return "Intermedio riesgo";
+    		return "Riesgo ntermedio";
     	} else if (params >= 5 && params <= 8) {
-    		return "Alto riesgo";
+    		return "Riesgo alto";
     	} else if (params >= 9) {
-    		return "Muy alto riesgo";
+    		return "Riesgo muy alto";
     	}
     }
 
